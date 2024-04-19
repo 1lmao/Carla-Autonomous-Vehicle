@@ -1,3 +1,20 @@
+import carla
+
+# Connect to the Carla server
+client = carla.Client('localhost', 2000)
+client.set_timeout(10.0)
+
+# Retrieve the Carla world object
+world = client.get_world()
+
+# Retrieve the blueprint library
+blueprint_library = world.get_blueprint_library()
+
+# Find the Tesla Model 3 blueprint
+ego_bp = blueprint_library.find('vehicle.tesla.model3')
+
+
+
 #-------------------------
 #Spawn ego vehicle
 #-------------------------
