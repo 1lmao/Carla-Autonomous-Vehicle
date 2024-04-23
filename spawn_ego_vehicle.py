@@ -1,4 +1,6 @@
 import carla
+import random
+import logging
 
 # Connect to the Carla server
 client = carla.Client('localhost', 2000)
