@@ -13,6 +13,11 @@ blueprint_library = world.get_blueprint_library()
 # Find the Tesla Model 3 blueprint
 ego_bp = blueprint_library.find('vehicle.tesla.model3')
 
+# Settings MUST BE SET YOU CAN RUN WORLD
+settings = world.get_settings()
+settings.synchronous_mode = True # Enables synchronous mode
+settings.fixed_delta_seconds = 0.08
+world.apply_settings(settings)
 
 
 #-------------------------
