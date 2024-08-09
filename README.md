@@ -12,7 +12,7 @@ In terminal run the following code to manipulate simulation:
    - spawn_ego_vehicle_sensor_traffic.py
   
 3. Create Bounding Boxes
-  - bounding_boxes.py
+   - bounding_boxes.py
 
 4. Run Automatic Control Vehicle Simuilation while also changing the wheel physics et alii of Carla Truck
    - automatic_control_changing_breaking_wheel_physics.py
