@@ -3,7 +3,7 @@
 - **OS** Linux
 - **GPU:** NVIDIA 16GB
 
-In terminal to run :
+In terminal run the following code to manipulate simulation:
 
 1. Spawn Testla Model 3
    - spawn_ego_vehicle.py
